@@ -1,3 +1,3 @@
 FROM httpd
 USER root
-RUN echo "first" >> /root/1.test
+RUN echo "first, second" >> /root/1.test
